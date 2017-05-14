@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_weights"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  />
+            <!--android:text="weights" -->
+
+
+
+        <!--<Button-->
+            <!--android:id="@+id/weight_restoration"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:backgroundTint="@android:color/holo_orange_light"-->
+            <!--android:text="Weight Restoration" />-->
+        <!--&lt;!&ndash;android:onClick="openWeight"&ndash;&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/set_point"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:backgroundTint="@android:color/holo_orange_light"-->
+            <!--android:text="Set point" />-->
+
+        <!--&lt;!&ndash;android:onClick="openMetabolism"&ndash;&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/ideal_weight"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:backgroundTint="@android:color/holo_orange_light"-->
+            <!--android:text="Ideal body weight" />-->
+        <!--&lt;!&ndash;android:onClick="openFoodFacts"&ndash;&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/weight_redistribution"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:backgroundTint="@android:color/holo_orange_light"-->
+            <!--android:text="Weight Redistribution" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/target_weight"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:backgroundTint="@android:color/holo_orange_light"-->
+            <!--android:text="Target Weight" />-->
+
+    </LinearLayout>
+</FrameLayout>

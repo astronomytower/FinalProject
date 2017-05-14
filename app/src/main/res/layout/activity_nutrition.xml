@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nutrition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rishika.finalproject_rishikaj.NutritionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight, Oh Why?"
+            android:id="@+id/weight"
+            android:onClick="openWeight"
+            android:backgroundTint="@android:color/holo_orange_light"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meta-Metabolism"
+            android:id="@+id/open_metabolism"
+            android:onClick="openMetabolism"
+            android:backgroundTint="@android:color/holo_orange_light"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What Food is"
+            android:id="@+id/what_is"
+            android:onClick="openFoodFacts"
+            android:backgroundTint="@android:color/holo_orange_light"
+            />
+
+        <Button
+            android:id="@+id/meal_plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:onClick="openMealPlan"
+            android:text="Meal Plans" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exchange System"
+            android:id="@+id/exchange_system"
+            android:onClick="openExchangeSystem"
+            android:backgroundTint="@android:color/holo_orange_light"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Journal"
+            android:id="@+id/food_journal"
+            android:onClick="openFoodJournal"
+            android:backgroundTint="@android:color/holo_orange_light"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What Food is Not"
+            android:id="@+id/what_not"
+            android:onClick="openFoodMyths"
+            android:backgroundTint="@android:color/holo_orange_light"
+            />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

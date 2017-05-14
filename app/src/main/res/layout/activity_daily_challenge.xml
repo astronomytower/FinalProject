@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_daily_challenge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.rishika.finalproject_rishikaj.DailyChallengeActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_daily_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/daily_challenge"/>
+
+    <TextView
+        android:id="@+id/title_daily_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--android:text="@string/"-->
+    <!--function that gives a new challenge title everyday. arraylist in firebase? update daily function.-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/daily_challenge"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Challenge body"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/daily_challenge"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Challenge body"-->
+        <!--/>-->
+
+    <!--android:text="@string/"-->
+    <!--function that gives a new challenge body everyday. arraylist in firebase? update daily function.-->
+
+    <!--OR-->
+
+    <!--challenge object-->
+
+    <Button
+        android:id="@+id/save_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_challenge"
+        />
+
+
+    <Button
+        android:id="@+id/write_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_note"
+        android:onClick="openChallengeNote"/>
+
+</LinearLayout>
